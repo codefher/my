@@ -1,0 +1,97 @@
+PowerShell 7.4.5
+Loading personal and system profiles took 882ms.
+❯❯ Nest  17:55 npm install -g @nestjs/cli
+
+changed 258 packages in 17s
+❯❯ Nest  17:55 nest -v
+10.4.5
+❯❯ Nest  17:55 nest
+Usage: nest <command> [options]
+
+Options:
+  -v, --version                                   Output the current version.
+  -h, --help                                      Output usage information.
+
+Commands:
+  new|n [options] [name]                          Generate Nest application.
+  build [options] [app]                           Build Nest application.
+  start [options] [app]                           Run Nest application.
+  info|i                                          Display Nest project details.
+  add [options] <library>                         Adds support for an external library to your project.
+  generate|g [options] <schematic> [name] [path]  Generate a Nest element.
+    Schematics available on @nestjs/schematics collection:
+      ┌───────────────┬─────────────┬──────────────────────────────────────────────┐
+      │ name          │ alias       │ description                                  │
+      │ application   │ application │ Generate a new application workspace         │
+      │ class         │ cl          │ Generate a new class                         │
+      │ configuration │ config      │ Generate a CLI configuration file            │
+      │ controller    │ co          │ Generate a controller declaration            │
+      │ decorator     │ d           │ Generate a custom decorator                  │
+      │ filter        │ f           │ Generate a filter declaration                │
+      │ gateway       │ ga          │ Generate a gateway declaration               │
+      │ guard         │ gu          │ Generate a guard declaration                 │
+      │ interceptor   │ itc         │ Generate an interceptor declaration          │
+      │ interface     │ itf         │ Generate an interface                        │
+      │ library       │ lib         │ Generate a new library within a monorepo     │
+      │ middleware    │ mi          │ Generate a middleware declaration            │
+      │ module        │ mo          │ Generate a module declaration                │
+      │ pipe          │ pi          │ Generate a pipe declaration                  │
+      │ provider      │ pr          │ Generate a provider declaration              │
+      │ resolver      │ r           │ Generate a GraphQL resolver declaration      │
+      │ resource      │ res         │ Generate a new CRUD resource                 │
+      │ service       │ s           │ Generate a service declaration               │
+      │ sub-app       │ app         │ Generate a new application within a monorepo │
+      └───────────────┴─────────────┴──────────────────────────────────────────────┘
+❯❯ Nest  17:56 nest new myfirstapp
+⚡  We will scaffold your app in a few seconds..
+
+? Which package manager would you ❤️  to use? npm
+CREATE myfirstapp/.eslintrc.js (688 bytes)
+CREATE myfirstapp/.prettierrc (54 bytes)
+CREATE myfirstapp/nest-cli.json (179 bytes)
+CREATE myfirstapp/package.json (2018 bytes)
+CREATE myfirstapp/README.md (4454 bytes)
+CREATE myfirstapp/tsconfig.build.json (101 bytes)
+CREATE myfirstapp/tsconfig.json (567 bytes)
+CREATE myfirstapp/src/app.controller.ts (286 bytes)
+CREATE myfirstapp/src/app.module.ts (259 bytes)
+CREATE myfirstapp/src/app.service.ts (150 bytes)
+CREATE myfirstapp/src/main.ts (216 bytes)
+CREATE myfirstapp/src/app.controller.spec.ts (639 bytes)
+CREATE myfirstapp/test/jest-e2e.json (192 bytes)
+CREATE myfirstapp/test/app.e2e-spec.ts (654 bytes)
+
+✔ Installation in progress... ☕
+
+🚀  Successfully created project myfirstapp
+👉  Get started with the following commands:
+
+$ cd myfirstapp
+$ npm run start
+
+
+                          Thanks for installing Nest 🙏
+                 Please consider donating to our open collective
+                        to help us maintain this package.
+
+
+               🍷  Donate: https://opencollective.com/nest
+
+❯❯ Nest  17:57
+
+
+
+> nest generate module projects    
+> nest generate module tasks                                                               [History]
+> nest g mo auth                                                                           [History]
+> nest g mo users                                                                          [History]
+
+
+> nest generate controller projects                                                        [History]
+> nest generate controller hello                                                           [History]
+> nest generate controller tasks                                                      [History]
+> nest g co auth --no-spec  
+
+> nest g service tasks   
+> nest g s projects                                                                        [History]
+> nest g s auth --no-spec                                                                  [History]
