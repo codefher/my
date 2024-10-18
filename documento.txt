@@ -95,3 +95,20 @@ $ npm run start
 > nest g service tasks   
 > nest g s projects                                                                        [History]
 > nest g s auth --no-spec                                                                  [History]
+
+
+➜  myfirstapp git:(main) ✗ nest g pipe hello/pipes/validateuser   
+
+➜  myfirstapp git:(main) ✗ nest g guard /hello/guards/auth
+
+
+➜  myfirstapp git:(main) ✗ nest g middleware              
+? What name would you like to use for the middleware? users/logger
+CREATE src/users/logger/logger.middleware.spec.ts (188 bytes)
+CREATE src/users/logger/logger.middleware.ts (198 bytes)
+➜  myfirstapp git:(main) ✗ 
+
+
+➜  myfirstapp git:(main) ✗ nest g mi users/auth
+CREATE src/users/auth/auth.middleware.spec.ts (180 bytes)
+CREATE src/users/auth/auth.middleware.ts (196 bytes)
